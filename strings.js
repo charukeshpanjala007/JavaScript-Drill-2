@@ -46,6 +46,9 @@ console.log(result)
 
 // ==== String Problem #3 ====
 // Given a string in the format of "10/1/2021", print the month in which the date is present in.
+const Problem3 = require("./string3.js")
+result = Problem3("10/1/2021")
+console.log(result)
 
 
 // ==== String Problem #4 ====
