@@ -50,12 +50,13 @@ const Problem3 = require("./string3.js")
 result = Problem3("10/1/2021")
 console.log(result)
 
-
 // ==== String Problem #4 ====
 // Given an object in the following format, return the full name in title case.
 // {"first_name": "JoHN", "last_name": "SMith"}
 // {"first_name": "JoHN", "middle_name": "doe", "last_name": "SMith"}
-
+const Problem4 = require("./string4.js")
+result = Problem4({"first_name": "JoHN", "last_name": "SMith"})
+console.log(result)
 
 // ==== String Problem #5 ====
 // Given an array of strings ["the", "quick", "brown", "fox"], convert it into a string "the quick brown fox."
