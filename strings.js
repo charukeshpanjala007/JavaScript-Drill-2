@@ -61,3 +61,6 @@ console.log(result)
 // ==== String Problem #5 ====
 // Given an array of strings ["the", "quick", "brown", "fox"], convert it into a string "the quick brown fox."
 // If the array is empty, return an empty string.
+const Problem5 = require("./string5.js")
+result = Problem5(["the", "quick", "brown", "fox"])
+console.log(result)
