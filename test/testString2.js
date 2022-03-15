@@ -23,3 +23,7 @@ console.log(result)
 console.log("Test Case- 6")
 result = Problem2("null")
 console.log(result) 
+
+console.log("Test Case- 7")
+result = Problem2("124.123.168.214")
+console.log(result) 

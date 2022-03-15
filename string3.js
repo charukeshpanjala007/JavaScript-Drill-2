@@ -2,15 +2,15 @@ const months = ["January", "February", "March", "April", "May", "June", "July", 
 
 const getMonthFunction = function (date) {
     let output
-    if (date !== undefined && date != null) {
-        const [day, month, year] = date.split("/")
-        if (Number.isInteger(parseInt(month))) {
+    if (date) {
+        const month = date.split("/")[0]
+        if ((parseInt(month)) == month && parseInt(month)<=12) {
             output = months[parseInt(month) - 1]
         } else {
-            output = "Not Found"
+            output = "Invalid Input"
         }
     } else {
-        output = "Not Found"
+        output = "Invalid Input"
     }
     return output
 }
