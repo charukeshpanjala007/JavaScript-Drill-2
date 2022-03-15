@@ -21,5 +21,5 @@ result = Problem4("")
 console.log(result) 
 
 console.log("Test Case- 6")
-result = Problem4("null")
+result = Problem4({"middle_name": "doe", "last_name": "SMith"})
 console.log(result) 
